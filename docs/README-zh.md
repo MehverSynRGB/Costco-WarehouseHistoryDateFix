@@ -1,10 +1,13 @@
 <div align="center">
-  <h1>Costco-WarehouseHistoryDateFix <code>v1.0</code></h1>
-  <p>
-    <a href="https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="GitHub"></a>
-  </p>
-  <p><a href="https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix">English</a> · <strong>简体中文</strong></p>
+    <img src="https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix/raw/main/docs/icon/256.png" width="20%"/>
+    <h1>Costco-消费历史日期修复 <code>v1.0</code></h1>
+    <p>
+        <a href='https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix'><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="GitHub"></a>
+        <a href='https://greasyfork.org/scripts/601960'><img src="https://img.shields.io/badge/-GreasyFork-670000?style=flat&amp;logo=tampermonkey&amp;logoColor=white" referrerpolicy="no-referrer" alt="GreasyFork"></a>
+    </p>
+    <p><a href='https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix/blob/main/README.md'>English</a> | 简体中文</p>
 </div>
+
 
 ## 简介
 
@@ -37,7 +40,7 @@ Costco-消费历史日期修复 是用于 Costco 店内消费记录查询的非�
 打开浏览器开发者工具。Console 会显示脚本安装和本地修正记录，例如：
 
 ```text
-[Costco Receipt Date Fix] Installed
+Script Costco-WarehouseHistoryDateFix (Costco-消费历史日期修复) loaded successfully. https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix
 [Costco Receipt Date Fix] 6/31/2026 -> 6/30/2026
 ```
 
@@ -71,7 +74,7 @@ Costco-消费历史日期修复 是用于 Costco 店内消费记录查询的非�
 
 | 情况 | 检查方式 |
 | --- | --- |
-| 出现 `Installed` 但没有修正日志 | 日期可能合法、请求可能不是收据查询，或 Costco 已更改请求格式。 |
+| 出现脚本加载提示但没有修正日志 | 日期可能合法、请求可能不是消费历史查询，或 Costco 已更改请求格式。 |
 | 请求仍包含 `6/31` | 确认脚本已启用且获准在 Costco 运行；检查网站或脚本管理器是否有变动。 |
 | 修正后仍返回 HTTP 400 | 查看 Response；仍可能存在 API、账户、授权或其他参数问题。 |
 | 会员已过期或身份未验证 | 本脚本不能恢复访问权限，也不能绕过 Costco 授权。 |

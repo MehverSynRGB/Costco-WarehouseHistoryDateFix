@@ -1,10 +1,13 @@
 <div align="center">
-  <h1>Costco-WarehouseHistoryDateFix <code>v1.0</code></h1>
-  <p>
-    <a href="https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix"><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="GitHub"></a>
-  </p>
-  <p><strong>English</strong> · <a href="https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix/blob/main/docs/README-zh.md">简体中文</a></p>
+    <img src="https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix/raw/main/docs/icon/256.png" width="20%"/>
+    <h1>Costco-WarehouseHistoryDateFix <code>v1.0</code></h1>
+    <p>
+        <a href='https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix'><img src="https://img.shields.io/badge/-GitHub-3A3A3A?style=flat&amp;logo=GitHub&amp;logoColor=white" referrerpolicy="no-referrer" alt="GitHub"></a>
+        <a href='https://greasyfork.org/scripts/601960'><img src="https://img.shields.io/badge/-GreasyFork-670000?style=flat&amp;logo=tampermonkey&amp;logoColor=white" referrerpolicy="no-referrer" alt="GreasyFork"></a>
+    </p>
+    <p>English | <a href='https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix/blob/main/docs/README-zh.md'>简体中文</a></p>
 </div>
+
 
 ## Overview
 
@@ -37,7 +40,7 @@ It is not affiliated with or endorsed by Costco Wholesale.
 Open browser DevTools. The Console shows installation and any local correction, for example:
 
 ```text
-[Costco Receipt Date Fix] Installed
+Script Costco-WarehouseHistoryDateFix (Costco-消费历史日期修复) loaded successfully. https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix
 [Costco Receipt Date Fix] 6/31/2026 -> 6/30/2026
 ```
 
@@ -71,7 +74,7 @@ The script sends no data to third parties. It does not collect or log receipt de
 
 | Situation | What to check |
 | --- | --- |
-| `Installed` appears but no correction is logged | The date may be valid, the request may not be a receipt query, or Costco may have changed its request format. |
+| The script load message appears but no correction is logged | The date may be valid, the request may not be a purchase history query, or Costco may have changed its request format. |
 | The request still contains `6/31` | Confirm the script is enabled and allowed to run on Costco; check for site or userscript-manager changes. |
 | The corrected request still returns HTTP 400 | Inspect the response. API, account, authorization, or unrelated parameter issues may remain. |
 | Membership expired or identity is not verified | This script cannot restore access or bypass Costco authorization. |
