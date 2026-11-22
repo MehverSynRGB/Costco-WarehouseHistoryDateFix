@@ -1,3 +1,6 @@
+> [!WARNING]
+> 因为作者不再使用该网站，自 `2026 年 11 月 20 日` (`v1.0`) 起归档，不再维护。请注意，随着网站的更新，可能会存在兼容性问题。
+
 <div align="center">
     <img src="https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix/raw/main/docs/icon/256.png" width="20%"/>
     <h1>Costco-消费历史日期修复 <code>v1.0</code></h1>
@@ -27,13 +30,6 @@ Costco-消费历史日期修复 是用于 Costco 店内消费记录查询的非�
 - 仅当 `M/D/YYYY` 日期在该月确实不存在时才修改；合法日期和其他字段保持不变。
 - 同时覆盖 `fetch` 与 `XMLHttpRequest`，包括浏览器中常见的 Axios 适配器。
 - 不修改响应、不绕过账户检查，也不恢复会员资格。
-
-## 安装与使用
-
-1. 安装 [Tampermonkey](https://www.tampermonkey.net/) 或兼容的用户脚本管理器。
-2. 安装 [Costco-WarehouseHistoryDateFix.user.js](../Costco-WarehouseHistoryDateFix.user.js)。
-3. 确认脚本已启用，刷新 Costco 页面后进入 **Account → Orders and Purchases → warehouse**。
-4. 重试受影响的日期范围。
 
 ## 验证方法
 
