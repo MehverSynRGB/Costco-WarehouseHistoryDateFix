@@ -1,3 +1,6 @@
+> [!WARNING]
+> Archived and no longer maintained since `November 20, 2026` (`v1.0`) because the author no longer uses this website. Please note that compatibility issues may arise as the website is updated.
+
 <div align="center">
     <img src="https://github.com/MehverSynRGB/Costco-WarehouseHistoryDateFix/raw/main/docs/icon/256.png" width="20%"/>
     <h1>Costco-WarehouseHistoryDateFix <code>v1.0</code></h1>
@@ -27,13 +30,6 @@ It is not affiliated with or endorsed by Costco Wholesale.
 - Changes a date only when an `M/D/YYYY` date is impossible for that month; valid dates and every other field are unchanged.
 - Covers both `fetch` and `XMLHttpRequest` requests, including the usual browser Axios adapter.
 - Does not alter responses, bypass account checks, or extend membership access.
-
-## Install and use
-
-1. Install [Tampermonkey](https://www.tampermonkey.net/) or a compatible userscript manager.
-2. Install [Costco-WarehouseHistoryDateFix.user.js](Costco-WarehouseHistoryDateFix.user.js).
-3. Ensure the script is enabled, then refresh Costco and open **Account → Orders and Purchases → warehouse**.
-4. Retry the affected date range.
 
 ## Verification
 
